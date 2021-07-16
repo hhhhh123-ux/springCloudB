@@ -1,0 +1,7 @@
+# Project exclude paths
+/springCloud-consumer-dept-80/target/
+/springCloud-eureka/target/
+/springCloud-eureka-7002/target/
+/springCloud-eureka-7003/target/
+/springcloudB-api/target/
+/springcloudB-provide-dept-8001/target/
