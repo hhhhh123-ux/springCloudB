@@ -10,6 +10,7 @@
         <module name="springcloudB-provide-dept-8002" />
         <module name="springcloudB-provide-dept-8001" />
         <module name="springcloudB-api" />
+        <module name="springCloud-consumer-dept-feign" />
         <module name="springcloudB-provide-dept-8003" />
         <module name="springCloud-eureka-7003" />
         <module name="springCloud-eureka-7002" />

@@ -12,6 +12,7 @@
         <module>springcloudB-provide-dept-8001</module>
         <module>springCloud-consumer-dept-80</module>
         <module>springCloud-eureka</module>
+        <module>springCloud-consumer-dept-frign</module>
     </modules>
 
     <packaging>pom</packaging>
