@@ -7,6 +7,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
 
+import java.util.List;
+
 
 @RestController
 public class DeptController {
@@ -29,4 +31,8 @@ public class DeptController {
         restTemplate.postForObject(url+"/add",dept, JSONPObject.class);
     }
 
+    @GetMapping("/getAll")
+    public List<Dept> getAll(){
+        return restTemplate.getForObject(url+"/getAll",List.class);
+    }
 }
